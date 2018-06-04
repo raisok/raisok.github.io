@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-04T12:34:28.214Z</updated>
+  <updated>2018-06-04T12:57:04.288Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 主题模板的设置</title>
+    <link href="http://yoursite.com/2018/06/04/hexo-%E4%B8%BB%E9%A2%98%E6%A8%A1%E6%9D%BF%E7%9A%84%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/06/04/hexo-主题模板的设置/</id>
+    <published>2018-06-04T12:56:41.000Z</published>
+    <updated>2018-06-04T12:57:04.288Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;参考博客:&lt;a href=&quot;http://threehao.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://threehao.com/&lt;/a&gt;&lt;br&gt;主题模板来源:&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://yoursite.com/categories/hexo/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>hexo和github搭建个人博客</title>
@@ -50,7 +74,7 @@
     <link href="http://yoursite.com/2018/06/04/perl%20one%20liner/"/>
     <id>http://yoursite.com/2018/06/04/perl one liner/</id>
     <published>2018-06-04T09:22:49.000Z</published>
-    <updated>2018-06-04T09:42:39.558Z</updated>
+    <updated>2018-06-04T12:58:43.412Z</updated>
     
     <summary type="html">
     
@@ -65,7 +89,7 @@
     
     </summary>
     
-      <category term="编程" scheme="http://yoursite.com/categories/%E7%BC%96%E7%A8%8B/"/>
+      <category term="perl学习" scheme="http://yoursite.com/categories/perl%E5%AD%A6%E4%B9%A0/"/>
     
     
       <category term="perl" scheme="http://yoursite.com/tags/perl/"/>
