@@ -7,15 +7,13 @@
 
     
 
-    <title>perl one liner | raisok&#39;s blog</title>
+    <title>转录组 | raisok&#39;s blog</title>
     <meta name="author" content="raisok">
-    
-    <meta name="description" content="可参考博客：http://blog.csdn.net/carzyer/article/details/5117429Perl常用命令行参数概览-e 指定字符串以作为脚本（多个字符串迭加）执行-M/-m 和 use 模块名 一样. 如果不想引入模块的缺省值, 你可以使用 -m. -m模块名 和 use">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <meta property="og:title" content="perl one liner"/>
+    
     <meta property="og:site_name" content="raisok&#39;s blog"/>
 
     
@@ -201,80 +199,36 @@
 
     <main>
         <div class="container main-container">
-    <nav class="page-nav hide-on-small-only">
+    
+
+<nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置（分类目录）</span>
-        
-            
-    
-    
-    <a class="breadcrumb" href="/categories/perl学习/">perl学习</a>
-
-
+        <span class="breadcrumb">当前位置（标签）</span>
         
 
+        
+            <a class="breadcrumb" href="/tags/转录组/">转录组</a>
         
     </div>
 </nav>
 
-<article>
-    <div class="card">
-        <div class="card-content">
-            
-
-            <div class="article-title">
-                
-    
-        <h1>perl one liner</h1>
-    
 
 
-            </div>
-            <time class="pink-link-context" datetime="2018-06-04T09:22:49.000Z"><a href="/2018/06/04/perl one liner/">2018-06-04</a></time>
-
-            <span id="busuanzi_container_page_pv" class="read-times-container">
-    <i class="fa fa-eye"></i>
-    <span id="busuanzi_value_page_pv"></span>
-</span>
-
-            
-    <div class="tags-row">
+    <div class="collection mt-0">
         
-            <a href="/tags/perl/" class="chip pink lighten-1">perl</a>
+            <a href="/2018/06/04/Trinity的介绍/" class="collection-item grey-text text-darken-1">
+                <time datetime="2018-06-04T13:33:57.000Z">2018-06-04</time>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                Trinity的介绍
+            </a>
+        
+            <a href="/2018/06/04/Trinity-软件运行原理/" class="collection-item grey-text text-darken-1">
+                <time datetime="2018-06-04T13:30:26.000Z">2018-06-04</time>
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                Trinity 软件运行原理
+            </a>
         
     </div>
-
-
-            <div class="toc pink-link-context hide-on-med-and-down">
-    
-</div>
-
-
-            <div class="entry pink-link-context">
-                <ul>
-<li><strong>可参考博客：</strong><a href="http://blog.csdn.net/carzyer/article/details/5117429" target="_blank" rel="noopener">http://blog.csdn.net/carzyer/article/details/5117429</a><br>Perl常用命令行参数概览<br>-e 指定字符串以作为脚本（多个字符串迭加）执行<br>-M/-m 和 use 模块名 一样. 如果不想引入模块的缺省值, 你可以使用 -m. -m模块名 和 use 模块名() 一样.<br>-I （这是一个大写i）指定目录以搜索标准位置前的模块<br>-w 打开警告<br>-c 进行语法检查但并不执行程序。<br>-0 （这是个零）跟一个16 进制或8进制数值，指定输入记录分隔符<br>-l （这个是L）跟一个16 进制或8进制数值，指定输出记录分隔符<br>-a 打开自动分离 (split) 模式. 空格是缺省的分离号. 输入根据分离号被分离然后放入缺省数组 @F.<br>-F 指定分割符 -a 使用的模式<br>-i 在适当的位置编辑文件<br>-n 使用 &lt;&gt; 将所有 @ARGV 参数当作文件来逐个运行<br>-p 和 -n 一样，但是还会打印 $_ 的内容<br>-00 打开段落模式<br>-0777 打开slurp 模式 (即可以一次把整个文件读入) , 这与把<code>$/</code> 设为空字符和 undef 一样效果.<br>-l 单独使用，有两个效果, 第一自动 chomp 输入分隔号, 第二 把<code>$/</code>值付给 <code>$\</code> ( 这样 print 的时候就会自动在末尾加 \n )<br>-c<br>这个参数编译 Perl 程序但不会真正运行它. 由此检查所有语法错误.事实上，它会执行任何BEGIN或CHECK块以及任何use指示字。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br></pre></td><td class="code"><pre><span class="line">1.输出随机的8个字符串，包含0-9，a-z</span><br><span class="line">perl -le &apos;print map &#123; (&quot;a&quot;..&quot;z&quot;,0..9)[rand 36] &#125; 1..8&apos;</span><br><span class="line">2.对某一列求和</span><br><span class="line">perl -lane &apos;$sum += $F[0]; END &#123; print $sum &#125;&apos;</span><br><span class="line">3.在字符串末尾加上换行符</span><br><span class="line">perl -pe &apos;s/$/\n/&apos; file</span><br><span class="line">4.去掉空行</span><br><span class="line">perl -ne &apos;print unless /^$/&apos;</span><br><span class="line">5.在所有字符中间加一个空格</span><br><span class="line">perl -lpe &apos;s// /g&apos;</span><br><span class="line">6.打印每行的行号</span><br><span class="line">perl -pe &apos;$_ = &quot;$. $_&quot;&apos;</span><br><span class="line">如果含有空行，只打印非空行行号</span><br><span class="line">perl -pe &apos;$_ = &quot;$. $_&quot; if /./&apos;</span><br><span class="line">打印匹配到的行和行号，没有匹配到的没有行号但是会输出</span><br><span class="line">perl -pe &apos;$_ = ++$x.&quot; $_&quot; if /regex/&apos;</span><br><span class="line">只打印匹配到的行和行号</span><br><span class="line">perl -ne &apos;print ++$x.&quot; $_&quot; if /regex/&apos;</span><br><span class="line">7.计算多少行</span><br><span class="line">perl -lne &apos;END &#123; print $. &#125;&apos;</span><br><span class="line">perl -ne &apos;&#125;&#123;print $.&apos;</span><br><span class="line">8.打印非空的行</span><br><span class="line">perl -le &apos;print ~~grep&#123;/./&#125;&lt;&gt;&apos;</span><br><span class="line">9.打印每一行最小的值</span><br><span class="line">perl -MList::Util=min -alne &apos;print min @F&apos;</span><br><span class="line">10.将一行id对应多个GO的结果处理成一个id对应一个go的结果</span><br><span class="line">perl -lane &apos;$a=@F;foreach$b(1..$#F)&#123;print qq&#123;$F[0]\t$F[$b]&#125;&#125;&apos;  Bn.GO &gt;Bn_oneline.annot</span><br><span class="line">11.查看测序reads碱基质量值的命令</span><br><span class="line">head input.fastq | awk &apos;&#123;if(NR%4==0) printf(&quot;%s&quot;,$0);&#125;&apos; |  od -A n -t u1 | awk &apos;BEGIN&#123;min=100;max=0;&#125;&#123;for(i=1;i&lt;=NF;i++) &#123;if($i&gt;max) max=$i; if($i&lt;min) min=$i;&#125;&#125;END&#123;if(max&lt;=74 &amp;&amp; min&lt;59) print &quot;Phred+33&quot;; else if(max&gt;73 &amp;&amp; min&gt;=64) print &quot;Phred+64&quot;; else if(min&gt;=59 &amp;&amp; min&lt;64 &amp;&amp; max&gt;73) print &quot;Solexa+64&quot;; else print &quot;Unknown score encoding!&quot;;&#125;&apos;</span><br><span class="line">12.统计SOAPnuke结果的碱基数据量</span><br><span class="line">ls /zfssz3/ST_BIGDATA/yueyao/03.TimeTest/Rub_denovo/00.data_Filter/result/*/Basic_Statistics_of_Sequencing_Quality.txt|perl -lane &apos;@a=split/\//,$_;open IN,$_ or die $!;while(&lt;IN&gt;)&#123;chmomp;@b=split/\t/,$_;if ($b[0]=~/Total number of bases/)&#123;$c=$b[2]/1024/1024;print qq&#123;$a[-2]\t$c&#125;&#125;&#125;&apos;</span><br><span class="line">13.查看统计软件运行时间</span><br><span class="line">ls *_run_time.txt|perl -lane &apos;$name=$_ ;open IN,$_ or die $!;while(&lt;IN&gt;)&#123;chomp;if(/^\w+/)&#123;$time=$_/60/60;print qq&#123;$name\t$time&#125;&#125;&#125;&apos;</span><br><span class="line">14.将一行id一行序列的mapper.fa文件去除重复的序列（针对mirdeep2的报错进行的处理）</span><br><span class="line">perl -e &apos;while(&lt;&gt;)&#123;chomp;if(/^&gt;/)&#123;$id=$_;&#125;else&#123;$seq=$_;$hash&#123;$id&#125;=$seq;&#125;&#125;foreach $b(keys %hash)&#123;print qq&#123;$b\n$hash&#123;$b&#125;\n&#125;&#125;&apos; mapper.fa &gt; new.fa</span><br><span class="line">15.根据id提取想要的fasta文件（来自CJ的perl oneliner）</span><br><span class="line"># 批量提取fasta</span><br><span class="line">perl -lne &apos;if($switch)&#123;if(/^&gt;/)&#123;$flag=0;m/^&gt;?(\S+).*?$/;$flag=1 if $need&#123;$1&#125;;&#125;print if $flag&#125;else&#123;m/^&gt;?(\S+).*?$/;$need&#123;$1&#125;++&#125;$switch=1 if eof(ARGV)&apos; Clean.ids Unigenes.fasta</span><br><span class="line"># 批量过滤fasta</span><br><span class="line">perl -lne &apos;if($switch)&#123;if(/^&gt;/)&#123;$flag=1;m/^&gt;?(\S+).*?$/;$flag=0 if $need&#123;$1&#125;;&#125;print if $flag&#125;else&#123;m/^&gt;?(\S+).*?$/;$need&#123;$1&#125;++&#125;$switch=1 if eof(ARGV)&apos; NoPlant.ids Unigenes.fasta</span><br><span class="line">16.查看测序数据属于phred64还是phred33    hiseqxten的是35-75属于phred33</span><br><span class="line">les FCHCNLGALXX_L8_WHEGGhnwTAAIRAAPEI-57_2.fq.gz|head -n 999 | awk &apos;&#123;if(NR%4==0) printf(&quot;%s&quot;,$0);&#125;&apos;|od -A n -t u1 -v|awk &apos;BEGIN&#123;min=100;max=0;&#125;&#123;for(i=1;i&lt;=NF;i++) &#123;if($i&gt;max) max=$i; if($i&lt;min) min=$i;&#125;&#125;END&#123;if(max&lt;=74 &amp;&amp; min&lt;59) print &quot;Phred+33&quot;;else if(max&gt;73 &amp;&amp; min&gt;=64) print &quot;Phred+64&quot;;else if(min&gt;=59 &amp;&amp; min&lt;64 &amp;&amp; max&gt;73) print &quot;Solexa+64&quot;;else print &quot;Unknown score encoding&quot;;print &quot;( &quot; min &quot;, &quot; max, &quot;)&quot;;&#125;</span><br><span class="line">17.根据一个列表id在另外一个列表中提取表达量，注意所存的哈希可能需要修改</span><br><span class="line">perl -e &apos;$gene=shift;$fpkm=shift;open LIST,$gene;while(&lt;LIST&gt;)&#123;chomp;$id=(split/\t/,$_)[1];$pathway=(split /\t/,$_)[0];$hash&#123;$id&#125;=$pathway&#125;close LIST;open FPKM,$fpkm;while(&lt;FPKM&gt;)&#123;chomp;if(/^gene_id/)&#123;print qq&#123;$_\n&#125;;&#125;else&#123;$gene_id=(split/\t/,$_)[0];if(exists $hash&#123;$gene_id&#125;)&#123;print qq&#123;$_\n&#125;;&#125;&#125;&#125;close FPKM;&apos; RUB_4Path_genelist.txt all.gene.FPKM.changeName.xls &gt;RUB_4Path_geneFPKM.txt</span><br><span class="line">18.比较装逼的写法？和:表示if和else，一定要搭配使用&#125;&#123;表示统计行号</span><br><span class="line">perl -lane &apos;/^H/?next:$F[2]&lt;=2000?print:&#123;&#125;;&#125;&#123;print $.;&apos; SRPP_REF_CPT.pic.lst</span><br><span class="line">tig02285153_pilon      CUFF.23689.3    1756    2932    20254  REF</span><br><span class="line">19.引用和解引用的方法，引用的好处是可以直接将一个数组当做值赋值给list，而且一个地址可以被多个变量引用</span><br><span class="line">perl -le &apos;$a=1;@b=(1,2,3);%c=(&apos;abc&apos;=&gt;20);$aref=\$a;$bref=\@b;$cref=\%c;print qq&#123;first_method:\t$$aref\t@$bref\t%$ref\nsecond_method:\t$&#123;$aref&#125;\t@&#123;$bref&#125;\t$&#123;$cref&#125;&#123;&apos;abc&apos;&#125;\nthird_method:\tnull\t$bref-&gt;[0]\t$cref-&gt;&#123;&apos;abc&apos;&#125;&#125;;&apos;</span><br><span class="line">20.打印想要打印的行</span><br><span class="line">perl -ne &apos;@lines = (2,4,6);print qq/$.\t$_/if grep&#123;$_== $.&#125;@lines;&apos; 05.SVDetect/test.fa</span><br><span class="line">21.去掉文件里面重复的行，同时也不改变文件本身的顺序</span><br><span class="line">perl -e &apos;while(&lt;&gt;)&#123;chomp;push @arr,$_;&#125;;@arr = grep &#123; ++$hash&#123;$_&#125; &lt; 2 &#125; @arr; print join(&quot;\n&quot;,@arr);print&quot;\n&quot;&apos; xxx.txt &gt;xxx.txt2</span><br><span class="line">22.生成华大有参转录组计算差异表达需要的输入文件</span><br><span class="line">for i in `ls /ldfssz1/ST_BIGDATA/USER/yueyao/01.testRNAseq/02.DiffExp/choice_re_do/*.gene.fpkm.xls`;do a=`echo $i|cut -d&apos;/&apos; -f9|cut -d&apos;.&apos; -f1`;printf $a&quot;\t&quot;$i&quot;\n&quot;;done</span><br><span class="line">23.对mutation格式的文件进行处理</span><br><span class="line">les /hwfssz1/ST_BIGDATA/USER/sunysh/Data/TCGA/Cancer_project/BRCA/TCGA-BRCA.sort.mutation|cut -f2|perl -lane &apos;$chr=(split/:/,$_)[0];$gene=(split/:/,$_)[1];($gene=~/(\d+)(\w+&gt;\w+)/||$gene=~/(\d+_\d+)(\w+)/||$gene=~/(\d+\w+)/)?&#123;print qq&#123;$chr\t$1\t$2&#125;&#125;:next&#125;&#123;&apos;|les</span><br><span class="line">24.将序列格式化为想要的一行id和多行序列,正则里面设置想要每行打印的碱基数,可能会有bug</span><br><span class="line"> perl -e &apos;$/=&quot;&gt;&quot;;&lt;&gt;;while(&lt;&gt;)&#123;chomp;($id,$seq)=(split /\n/,$_,2)[0,1];$seq=~s/\n//g;$seq=~ s/(\w&#123;30&#125;)/$1\n/g;print &quot;&gt;&quot;,$id,&quot;\n&quot;,$seq;&#125;&apos; in.fa &gt;out.fa</span><br><span class="line">25.将序列由多行变成一行</span><br><span class="line">perl -e &apos;$/=&quot;&gt;&quot;;&lt;&gt;;while(&lt;&gt;)&#123;chomp;($id,$seq)=(split/\n/,$_,2)[0,1];$seq=~s/\n//g;print &quot;&gt;&quot;.$id.&quot;\n&quot;.$seq.&quot;\n&quot;;&#125;&apos;  in.fa &gt;out.fa</span><br><span class="line">26.根据一个gene与symbol的映射关系，将另外一个文件的gene替换成symbol</span><br><span class="line">perl -e &apos;$gene2lable=shift;$gene2annot=shift;open GENE,$gene2lable or die $!;while(&lt;GENE&gt;)&#123;chomp;$tmp=(split/\t/,$_)[0],$gene=(split/-/,$tmp)[0];$hash&#123;$gene&#125;=$tmp;&#125;close GENE;open ANNOT,$gene2annot or die $!;while($line=&lt;ANNOT&gt;)&#123;chomp($line);$id=(split/\t/,$line)[0];$annot=(split/\t/,$line,2)[1];if(exists $hash&#123;$id&#125;)&#123;print qq&#123;$hash&#123;$id&#125;\t$annot\n&#125;&#125;&#125;close ANNOT;&apos; bg_unique.ko R.format.Unigene.fa.ko &gt;R.W.ko</span><br><span class="line">27.根据gene与ensemble的映射关系添加一列gene id</span><br><span class="line">perl -e &apos;$gene2lable=shift;$gene2annot=shift;open GENE,$gene2lable or die $!;while(&lt;GENE&gt;)&#123;chomp;$gene=(split/\t/,$_)[0];$ensemble=(split/\t/,$_)[1];$hash&#123;$ensemble&#125;=$gene;&#125;close GENE;open ANNOT,$gene2annot or die $!;$title=&lt;ANNOT&gt;;chomp($title);print qq&#123;GeneID\t$title&#125;;while($line=&lt;ANNOT&gt;)&#123;chomp($line);$id=(split/\t/,$line)[0];$annot=(split/\t/,$line,2)[1];if(exists $hash&#123;$id&#125;)&#123;print qq&#123;$id\t$hash&#123;$id&#125;\t$annot\n&#125;&#125;&#125;close ANNOT;&apos; ../ensemble2gene format.kongbai-VS-10033.DEGseq_Method.GeneDiffExp.xls &gt;gene.format.kongbai-VS-10033.DEGseq_Method.GeneDiffExp.xls</span><br><span class="line">28.将基因id格式化为差异表达基因的格式，第五列为倍数值，一般用来判断是上调还是下调</span><br><span class="line">perl -le &apos;print qq&#123;GeneID\tLength\tA-Expression\tB-Expression\tlog2Ratio(A/B)\tq-value(Storey et al. 2003)\tUp-Down-Regulation(A/B)\tp-value&#125;;while(&lt;&gt;)&#123;$id=(split)[0];print qq&#123;$id\tNA\tNA\tNA\tNA\tNA\tNA\tNA&#125;&#125;;&apos;</span><br><span class="line">29.将一行id一行GO变成一行id多行GO，GO中间用，隔开</span><br><span class="line">perl -lane &apos;push @&#123;$hash&#123;$F[0]&#125;&#125;,$F[1];END&#123;foreach $key (keys %hash)&#123;print qq&#123;$key\t&#125;,join(&quot;,&quot;,@&#123;$hash&#123;$key&#125;&#125;) &#125;&#125; XXX.GO</span><br></pre></td></tr></table></figure>
-
-                
-<p class="pink-link-context">
-    <a href="/2018/06/04/hexo和github搭建个人博客/" rel="next" title="hexo和github搭建个人博客">
-    上一篇：hexo和github搭建个人博客
-  </a>
-</p>
-
-
-
-
-            </div>
-			
-        </div>
-    </div>
-</article>
-
-
-
-
 
 
 </div>
