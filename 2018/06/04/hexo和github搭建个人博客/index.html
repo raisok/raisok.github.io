@@ -7,13 +7,17 @@
 
     
 
-    <title>归档：2018 | raisok&#39;s blog</title>
+    <title>hexo和github搭建个人博客 | raisok&#39;s blog</title>
     <meta name="author" content="raisok">
+    
+    <meta name="description" content="系统：window 10 64位
+需要软件：git,Node.js
+本文参考博客https://www.cnblogs.com/fengxiongZz/p/7707219.html成功配置我使用的Node.js和git提供了百度网盘链接，有需要可以自行下载Node.js百度分享链接git下载地址百度">
     
     
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    
+    <meta property="og:title" content="hexo和github搭建个人博客"/>
     <meta property="og:site_name" content="raisok&#39;s blog"/>
 
     
@@ -191,46 +195,96 @@
 
     <main>
         <div class="container main-container">
-    
-
-<nav class="page-nav hide-on-small-only">
+    <nav class="page-nav hide-on-small-only">
     <div class="nav-wrapper indigo">
-        <span class="breadcrumb">当前位置（归档）</span>
+        <span class="breadcrumb">当前位置（分类目录）</span>
+        
+            
+    
+    
+    <a class="breadcrumb" href="/categories/Hexo分类/">Hexo分类</a>
+
+
         
 
         
     </div>
 </nav>
 
+<article>
+    <div class="card">
+        <div class="card-content">
+            
+
+            <div class="article-title">
+                
+    
+        <h1>hexo和github搭建个人博客</h1>
+    
 
 
-    <ul class="collapsible mt-0" data-collapsible="accordion">
+            </div>
+            <time class="pink-link-context" datetime="2018-06-04T11:35:52.000Z"><a href="/2018/06/04/hexo和github搭建个人博客/">2018-06-04</a></time>
+
+            <span id="busuanzi_container_page_pv" class="read-times-container">
+    <i class="fa fa-eye"></i>
+    <span id="busuanzi_value_page_pv"></span>
+</span>
+
+            
+    <div class="tags-row">
         
+            <a href="/tags/hexo/" class="chip pink lighten-1">hexo</a>
         
-            <li>
-                <div class="collapsible-header active">
-                    <i class="fa fa-archive"></i>2018
-                </div>
-                <div class="collapsible-body">
-                    <div class="collection">
-                        
-                            <a href="/2018/06/04/hexo和github搭建个人博客/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2018-06-04T11:35:52.000Z">2018-06-04</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                hexo和github搭建个人博客
-                            </a>
-                        
-                            <a href="/2018/06/04/perl one liner/" class="collection-item grey-text text-darken-1">
-                                <time datetime="2018-06-04T09:22:49.000Z">2018-06-04</time>
-                                <span>&nbsp;&nbsp;&nbsp;</span>
-                                perl one liner
-                            </a>
-                        
-                    </div>
-                </div>
-            </li>
-        
-    </ul>
+    </div>
+
+
+            <div class="toc pink-link-context hide-on-med-and-down">
+    
+</div>
+
+
+            <div class="entry pink-link-context">
+                <ul>
+<li>系统：window 10 64位</li>
+<li>需要软件：<code>git,Node.js</code></li>
+<li>本文参考博客<a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">https://www.cnblogs.com/fengxiongZz/p/7707219.html</a>成功配置<br>我使用的Node.js和git提供了百度网盘链接，有需要可以自行下载<br>Node.js<a href="https://pan.baidu.com/s/1EMr0RVRkwQwgQYtJS8lENg" target="_blank" rel="noopener">百度分享链接</a><br>git下载地址<a href="https://pan.baidu.com/s/1EMr0RVRkwQwgQYtJS8lENg" target="_blank" rel="noopener">百度分享链接</a><br>首先安装Node.js和git，一路点击next就可以了，然后将Node.js和git的路径添加到环境变量<br><img src="https://upload-images.jianshu.io/upload_images/11644424-a8da805cfab5a8fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="环境变量.png"><br>使用<code>win + R</code>输入<code>cmd</code>然后回车跳出命令行界面，输入下面的命令测试是否成功安装<br><img src="https://upload-images.jianshu.io/upload_images/11644424-c28d1a6914afcfea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="测试.png"></li>
+<li>创建github项目，项目名称命名为<code>raisok.github.io</code>,我这里有感叹号是因为我已经创建了这个项目，如下图所示<br><img src="https://upload-images.jianshu.io/upload_images/11644424-241e0616145a096f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="github项目.png"></li>
+<li>安装hexo，自己选择一个文件夹进行安装，我选择的是E盘，然后输出命令<code>npm install hexo -g</code><br><img src="https://upload-images.jianshu.io/upload_images/11644424-c243b03b97a6a2b0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安装hexo.png"><br>输入<code>hexo -v</code>查看安装是否成功，成功会输出下面的信息<br><img src="https://upload-images.jianshu.io/upload_images/11644424-21d3a81f3ee40287.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>输入<code>hexo init</code>初始化文件夹，好像有个报错信息，但是不影响下面的操作<br><img src="https://upload-images.jianshu.io/upload_images/11644424-f6813c7c04b46335.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>输入<code>npm install</code>进行安装<br><img src="https://upload-images.jianshu.io/upload_images/11644424-c2f2d8cbc6b03181.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>输入<code>hexo s</code>启动服务，访问下面的网址就可以打开网页，如果长时间不出现，可能是端口被占用，可以尝试设置其他端口 输入<code>hexo server -p 5000</code> 5000为端口号<br><img src="https://upload-images.jianshu.io/upload_images/11644424-2041136ad8ec8c59.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></li>
+</ul>
+<hr>
+<p>以上就配置好了博客的初始化模板，下面就需要将github和hexo博客模板建立联系</p>
+<ul>
+<li>进入git窗口<br>添加用户名和邮箱<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;raisok&quot;</span><br><span class="line">git config --global user.email &quot;454418154@qq.com&quot;</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<p>通常情况下会生成一个<code>~/.ssh</code>的文件夹用于存放密钥，如果没有可以使用下面的命令来生成<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;邮件地址@youremail.com&quot;</span><br></pre></td></tr></table></figure></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/11644424-c37fc412fac2ac9b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>查看<code>~/.ssh</code>目录下是否存在下面几个文件<br><img src="https://upload-images.jianshu.io/upload_images/11644424-19aef5ce2a5b81f1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>在github设置公共的钥匙，新建一个<code>new ssh key</code>，将<code>id_rsa.pub</code>文件里的内容复制上去<br><img src="https://upload-images.jianshu.io/upload_images/11644424-cbb5624ecd14dd55.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>然后测试是否链接成功，成功会出现如图片所示的信息<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">eval &quot;$(ssh-agent -s)&quot;</span><br><span class="line">ssh-add.exe ~/.ssh/id_rsa</span><br><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/11644424-351c8a547bd25ddf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p>
+<hr>
+<p>在你初始化hexo的文件夹下面修改文件<code>_config.yml</code><br><img src="https://upload-images.jianshu.io/upload_images/11644424-9d82387c3b445c94.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>文件尾部修改下面的信息<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">type: git</span><br><span class="line">repo: git@github.com:raisok/raisok.github.io.git  #你自己的地址</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/11644424-46f5f61f4877f60c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>使用下面命令新建一篇博客并保存，需要在你初始化hexo的文件夹下面进行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;hello, hexo&quot;</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></p>
+<p><img src="https://upload-images.jianshu.io/upload_images/11644424-641a349ace2708da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>使用命令上传<code>hexo d -g</code>发现报错可能是你的github邮箱设置了禁止访问<br><img src="https://upload-images.jianshu.io/upload_images/11644424-9d236f4af9bcb91a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>去掉箭头所指的小勾然后再重新运行就可以了<br><img src="https://upload-images.jianshu.io/upload_images/11644424-e1db37e2110fc6b2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"><br>输入<code>https://raisok.github.io/</code>就可以访问我们的博客模板了，原始的模板需要继续进行修改成自己的风格<br><img src="https://upload-images.jianshu.io/upload_images/11644424-d9b003989bf2bae4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图片.png"></p>
+
+                
+
+
+<p class="pink-link-context">
+    <a href="/2018/06/04/perl one liner/" rel="next" title="perl one liner">
+    下一篇：perl one liner
+  </a>
+</p>
+
+
+            </div>
+			
+        </div>
+    </div>
+</article>
+
+
+
+
 
 
 </div>
